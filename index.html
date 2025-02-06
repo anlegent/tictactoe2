@@ -8,11 +8,12 @@
 </head>
 <body>
     <main>
+
         <div class="newgame">
-        <div class="logo">
-        <a href="./index.html">
+        <div class="newgamelogo">
+        <button>
             <img src="./assets/logo.svg" alt="logo">
-        </a>
+        </button>
         </div>
             <div class="pickmark">
                 <p>PICK PLAYER 1’S MARK</p>
@@ -33,7 +34,42 @@
         </div>
 
         <div class="game">
-            
+            <div class="gamebar">
+                <a href="./index.html">
+                    <img src="./assets/logo.svg" alt="logo">
+                </a>
+                <p class="playerturn"><img src="./assets/crossturn.svg" alt="cross">TURN</p>
+                <button class="redobtn"><img src="./assets/Redo.svg" alt=""></button>
+            </div>
+            <div class="TTT-flex">
+            <div class="TTT-grid">
+                <button class="markblock"></button>
+                <button class="markblock"></button>
+                <button class="markblock"></button>
+                <button class="markblock"></button>
+                <button class="markblock"></button>
+                <button class="markblock"></button>
+                <button class="markblock"></button>
+                <button class="markblock"></button>
+                <button class="markblock"></button>
+            </div>
+        </div>
+        <div class="statsflex">
+        <div class="stats">
+<div class="statdiv statdiv1">
+    <p class="statinfo">X (P2)</p>
+    <p class="statvalue">0</p>
+</div>
+<div class="statdiv statdiv2">
+    <p class="statinfo">TIES</p>
+    <p class="statvalue">0</p>
+</div>
+<div class="statdiv statdiv3">
+    <p class="statinfo">O (P1)</p>
+    <p class="statvalue">0</p>
+</div>
+        </div>
+    </div>
         </div>
     </main>
     <script src="./main.js"></script>
