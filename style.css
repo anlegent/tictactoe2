@@ -97,10 +97,14 @@ button{
     width: 100%;
     padding: 5% 0%;
 }
-/* TO REMOVE AFTER FINISHING */
-.game{
-    display: none;
+
+.hide{
+display: none;
 }
+.show{
+    display: block;
+}
+/* TO REMOVE AFTER FINISHING */
 /* TO REMOVE AFTER FINISHING */
 
 .game{
@@ -190,4 +194,26 @@ button{
 .statvalue{
     font-weight: 700;
     font-size: 1.25rem;
+}
+.p1wintext{
+    color: #F2B137;
+}
+.p1winimg{
+width: 5%;
+}
+.p2wintext{
+color: #31C3BD;
+}
+.p2winimg{
+width: 5%;
+}
+.noticebtn1{
+    background-color: #A8BFC9;
+    border-radius: 10px;
+    border-bottom: 4px #6B8997 solid;
+}
+.noticebtn2{
+    background-color: #F2B137;
+    border-radius: 10px;
+    border-bottom: 4px #CC8B13 solid;
 }
