@@ -57,3 +57,12 @@ confirmredo.addEventListener("click", ()=>{
     faded4.classList.add("hide")
     newgame.classList.remove("hide")
 })
+
+// for (let i = 0; i < 9; i++) {
+//     let markgrid = document.querySelector(`.mark${i}`)
+//     markgrid.addEventListener("click", () =>{
+//         console.log("aaa")
+//         markgrid.classList.add("hide")
+//         })
+// }
+
