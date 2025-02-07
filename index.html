@@ -72,36 +72,52 @@
     </div>
         </div>
 
+        <div id="fadedbg1" class="fadedbg">
         <div class="notice p1win">
-            <p>PLAYER 1 WINS!</p>
+
+            <p class="pwintitle" >PLAYER 1 WINS!</p>
             <p class="p1wintext"><img src="./assets/circle.svg" class="p1winimg" alt="circle">TAKES THE ROUND</p>
             <div class="noticebtns">
                 <button class="noticebtn1">QUIT</button>
                 <button class="noticebtn2" >NEXT ROUND</button>
             </div>
         </div>
+        </div>
+
+        <div id="fadedbg2" class="fadedbg">
         <div class="notice p2win">
-            <p>PLAYER 2 WINS!</p>
+
+            <p class="pwintitle" >PLAYER 2 WINS!</p>
             <p class="p2wintext"><img src="./assets/cross.svg" class="p2winimg" alt="cross">TAKES THE ROUND</p>
             <div class="noticebtns">
                 <button class="noticebtn1">QUIT</button>
                 <button class="noticebtn2" >NEXT ROUND</button>
             </div>
         </div>
+        </div>
+
+        <div id="fadedbg3" class="fadedbg">
         <div class="notice tie">
-            <p>ROUND TIED</p>
+
+            <p class="nowin" >ROUND TIED</p>
             <div class="noticebtns">
-                <button class="noticebtn1"></button>
-                <button class="noticebtn2" ></button>
+                <button class="noticebtn1">QUIT</button>
+                <button class="noticebtn2" >NEXT ROUND</button>
             </div>
         </div>
+        </div>
+
+        <div id="fadedbg4" class="fadedbg">
         <div class="notice restart">
-            <p>RESTART GAME?</p>
+
+            <p class="nowintitle" >RESTART GAME?</p>
             <div class="noticebtns">
-                <button class="noticebtn1">NO, CANCEL</button>
-                <button class="noticebtn2" >YES, RESTART</button>
+                <button class="noticebtn1" id="cancelredo">NO, CANCEL</button>
+                <button class="noticebtn2" id="confirmredo" >YES, RESTART</button>
+            </div>
             </div>
         </div>
+
     </main>
     <script src="./main.js"></script>
 </body>
